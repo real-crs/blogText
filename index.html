@@ -1,10 +1,10 @@
 ---
-layout：default
-title:ChenRS Blog
-des:这是我的主页
+layout: default
+title: 首页
+des: 这是我的主页
 ---
 <div>
-{% for post in site.post %}
+{% for post in site.posts %}
 	<a href="{{ site.baseurl }} {{ post.url }}">
 		<h2>{{ post.title }}</h2>
 	</a>
